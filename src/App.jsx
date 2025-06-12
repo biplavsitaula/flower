@@ -76,7 +76,7 @@ function App() {
           ))}
         </div>
       </section>
-      <section className="py-12 flex flex-wrap justify-between max-lg:px-6 px-70 max-lg:justify-center gap-8">
+      <section className="py-12 flex flex-wrap  max-lg:px-6 px-70 justify-center gap-8">
         <div>
           <h3 className="text-3xl text-center">
             {websiteContent.sections.order.title}
