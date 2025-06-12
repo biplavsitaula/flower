@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Courgette", cursive;
+  font-style: italic;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgb(192 155 122);
+  /* color: #97d2db; */
+  background-color: rgb(241, 229, 204);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --foreground:rgb(192 155 122);
+  --secondary:rgb(214 177 137);
+  --background: rgb(241, 229, 204);
+  --background-secondary: rgb(238, 238, 238);
+}
+@theme {
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --font-bold: 700;
+  --font-semibold: 600;
+  --font-thin: 300;
+}
